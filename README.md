@@ -179,7 +179,7 @@ cd Marionet
 
 ### 新手入门
 - [项目愿景](docs/vision/vision.md) - 了解项目的理念和目标
-- [功能设计](docs/features/features-vision.md) - 完整的功能愿景设计文档
+- [功能设计](docs/features/README.md) - 完整的功能愿景设计文档
 - [开发指南](docs/development.md) - 搭建开发环境
 - [代码规范](docs/coding-style.md) - 代码风格约定
 

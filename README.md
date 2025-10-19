@@ -178,8 +178,8 @@ cd Marionet
 ## 文档导航
 
 ### 新手入门
-- [项目愿景](docs/vision.md) - 了解项目的理念和目标
-- [功能设计](docs/features-vision.md) - 完整的功能设计文档
+- [项目愿景](docs/vision/vision.md) - 了解项目的理念和目标
+- [功能设计](docs/features/features-vision.md) - 完整的功能愿景设计文档
 - [开发指南](docs/development.md) - 搭建开发环境
 - [代码规范](docs/coding-style.md) - 代码风格约定
 
@@ -207,7 +207,7 @@ cd Marionet
 | 层级 | 技术 | 版本 | 说明 |
 |------|------|------|------|
 | **渲染引擎** | Godot | 4.3+ | 跨平台、轻量、免费 |
-| **Live2D** | GDCubism | latest | 官方 Godot 插件 |
+| **Live2D** | GDCubism | latest | 社区Godot 插件 |
 | **核心逻辑** | C# | .NET 8 | 高性能、易维护 |
 | **性能关键** | C++ | - | 少量使用，系统优化 |
 | **本地 AI** | ONNX Runtime | 1.16+ | 可选本地模型 |

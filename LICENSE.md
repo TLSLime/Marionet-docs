@@ -1,8 +1,8 @@
 LICENSE
 
-============================================================
+
 MARIONET PROJECT LICENSE
-============================================================
+===
 
 Last Updated: 2025-10-19
 Document Version: 1.0
@@ -17,9 +17,8 @@ LANGUAGE VERSIONS:
 
 In case of any discrepancy between versions, the English version shall prevail.
 
-============================================================
 IMPORTANT NOTICE
-============================================================
+===
 
 This project consists of multiple components with different licenses.
 Users must comply with all applicable licenses when building, using, or 
@@ -56,9 +55,8 @@ not included in the repository and must be prepared by users themselves.
 Users must compile the GDCubism plugin themselves or obtain pre-compiled 
 binaries separately.
 
-============================================================
 COMPONENT LICENSE SUMMARY
-============================================================
+===
 
 Component                          License           Scope of Application
 ------------------------------------------------------------
@@ -80,9 +78,8 @@ Users have the option to:
 2. Use the framework without Live2D components (Apache 2.0 only)
 3. Replace the rendering component with alternative solutions (Apache 2.0 only)
 
-============================================================
 1. MARIONET CORE FRAMEWORK
-============================================================
+===
 
 License: Apache License 2.0
 Copyright: 2024 TLSLime (https://github.com/TLSLime)
@@ -282,9 +279,8 @@ with GDCubism and is subject to additional license terms when compiled.
 
    END OF TERMS AND CONDITIONS
 
-============================================================
 2. GDCUBISM PLUGIN
-============================================================
+===
 
 License: MIT License
 Copyright: (c) 2023 MizunagiKB
@@ -327,9 +323,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-============================================================
 3. LIVE2D CUBISM SDK FOR NATIVE
-============================================================
+===
 
 License: Live2D Proprietary Software License
 Copyright: Live2D Inc.
@@ -428,9 +423,8 @@ Official Resources:
 - License Information: https://www.live2d.com/en/download/cubism-sdk/#license
 - Contact: license@live2d.com
 
-============================================================
 4. GODOT ENGINE
-============================================================
+===
 
 License: MIT License
 Copyright: Godot Engine contributors
@@ -441,9 +435,8 @@ repository. Users must install Godot separately.
 
 License details: https://godotengine.org/license
 
-============================================================
 DISTRIBUTION GUIDELINES
-============================================================
+===
 
 DISTRIBUTING SOURCE CODE:
 
@@ -497,9 +490,8 @@ If you wish to distribute without Live2D licensing:
 - Core framework functionality remains available under Apache 2.0
 - The Marionet framework license (Apache 2.0) is unaffected by this choice
 
-============================================================
 DEVELOPMENT AND BUILDING
-============================================================
+===
 
 FOR DEVELOPERS:
 
@@ -538,9 +530,8 @@ To build the complete project with rendering functionality:
 IMPORTANT: This repository does NOT include compiled GDCubism plugin binaries.
 Users must compile these themselves or obtain from authorized sources.
 
-============================================================
 THIRD-PARTY DEPENDENCIES
-============================================================
+===
 
 This project may use additional third-party libraries and tools. Each has its 
 own license terms:
@@ -551,9 +542,8 @@ own license terms:
 
 Refer to project dependency files for complete list.
 
-============================================================
 DISCLAIMER
-============================================================
+===
 
 This license document is provided for informational purposes. It does not 
 constitute legal advice.
@@ -571,9 +561,8 @@ with third-party licenses. Users are solely responsible for:
 
 When in doubt, consult a qualified legal professional.
 
-============================================================
 CONTACT INFORMATION
-============================================================
+===
 
 Marionet Project:
 - Repository: https://github.com/TLSLime/Marionet
@@ -591,9 +580,8 @@ Live2D Inc.:
 - Licensing: license@live2d.com
 - Support: https://www.live2d.com/en/support/
 
-============================================================
 ACKNOWLEDGMENTS
-============================================================
+===
 
 This project is developed and maintained by:
 - TLSLime (https://github.com/TLSLime)
@@ -607,6 +595,6 @@ This project makes use of the following:
 
 We are grateful to all contributors and maintainers of these projects.
 
-============================================================
+
 END OF LICENSE DOCUMENT
-============================================================
+===

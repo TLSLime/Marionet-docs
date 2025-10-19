@@ -1,0 +1,128 @@
+# Marionet 项目文档配置
+site_name: Marionet（魔法人偶师）
+site_description: 智能陪伴向的桌面宠物框架 | AI驱动 | Live2D | 离线可用
+site_author: TLSLime
+site_url: https://tlslim.github.io/Marionet-docs/
+repo_url: https://github.com/TLSLime/Marionet
+repo_name: TLSLime/Marionet
+edit_uri: edit/main/docs/
+
+# 主题配置
+theme:
+  name: material
+  palette:
+    # 白色主题配置
+    primary: white
+    accent: grey
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: 切换到深色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tracking
+  font:
+    text: "Noto Sans SC"
+    code: "JetBrains Mono"
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# 插件配置
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
+  - git-committers:
+      repository: TLSLime/Marionet
+      branch: main
+
+# 页面配置
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 安装指南: getting-started/installation.md
+    - 开发环境: development/development.md
+    - GDCubism配置: development/GDCubism.md
+  - 架构设计:
+    - 架构总览: architecture/architecture.md
+    - 核心模块: core-Furnace.md
+    - 数据设计: data-design.md
+  - 功能特性:
+    - 功能概览: features.md
+    - 对话系统: features/dialogue.md
+    - 环境感知: features/environment-aware.md
+    - 用户画像: features/user-profile.md
+    - Live2D表现: features/live-performance.md
+    - 记忆系统: features/memory.md
+    - 触摸互动: features/touch-interaction.md
+    - 游戏陪玩: features/gaming.md
+    - VTuber模式: features/streaming.md
+  - 开发指南:
+    - 开发文档: development/development.md
+    - 代码规范: development/coding-style.md
+    - 贡献指南: development/contributing.md
+  - 研究文档:
+    - 研究索引: research/research.md
+    - 原型验证: research/prototypes/
+    - 性能测试: research/benchmarks/
+  - 项目信息:
+    - 路线图: roadmap.md
+    - 更新日志: changelog/
+    - API文档: api/
+    - 开源协议: 
+      - 英文版: ../LICENSE.md
+      - 中文版: ../LICENSE.zh-CN.md
+
+# 额外配置
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TLSLime/Marionet
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tlslim
+    - icon: fontawesome/solid/envelope
+      link: mailto:limesoda0290@gmail.com
+  version:
+    provider: mike
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # 请替换为您的Google Analytics ID
+
+# 页面元数据
+page:
+  - toc:
+      permalink: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+# 构建配置
+build:
+  - docs/
+  - README.md: index.md
+  - LICENSE.md
+  - LICENSE.zh-CN.md
+
+# 排除文件
+exclude_docs: |
+  vx_attachments/
+  vx_notebook/
+  vx_recycle_bin/
+  vx.json
+  assets/vx.json
+  docs/*/vx.json
+
+# 开发服务器配置
+dev_addr: 127.0.0.1:8000

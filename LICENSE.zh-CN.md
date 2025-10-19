@@ -1,5 +1,7 @@
 许可证（中文翻译版）
 
+[ENGLISH](LICENSE.md) | 简体中文
+
 翻译声明 | TRANSLATION NOTICE
 ===
 

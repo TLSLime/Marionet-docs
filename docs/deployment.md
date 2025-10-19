@@ -12,10 +12,16 @@
 
 ### 1. 启用 GitHub Pages
 
-1. 进入您的仓库设置页面
+1. 进入您的仓库设置页面：`https://github.com/TLSLime/Marionet-docs/settings/pages`
 2. 在左侧菜单中找到 "Pages" 选项
 3. 在 "Source" 部分选择 "GitHub Actions"
-4. 保存设置
+4. 点击 "Save" 保存设置
+
+!!! warning "重要步骤"
+    如果看不到 "GitHub Actions" 选项，请确保：
+    - 仓库是公开的（Public）
+    - 您有仓库的管理员权限
+    - 仓库中已经存在 `.github/workflows/` 文件夹
 
 ### 2. 推送代码
 
@@ -104,6 +110,27 @@ theme:
 1. 确保 GitHub Pages 已正确启用
 2. 检查仓库设置中的 Pages 配置
 3. 等待几分钟让 DNS 传播
+
+### 部署失败（404错误）
+
+如果遇到 "Failed to create deployment (status: 404)" 错误：
+
+1. **检查仓库权限**：
+   - 确保仓库是公开的
+   - 确保您有管理员权限
+
+2. **重新启用 GitHub Pages**：
+   - 进入仓库设置 → Pages
+   - 如果已启用，先选择 "None" 保存
+   - 然后重新选择 "GitHub Actions" 保存
+
+3. **检查工作流文件**：
+   - 确保 `.github/workflows/docs.yml` 文件存在
+   - 确保文件语法正确
+
+4. **重新触发部署**：
+   - 在 Actions 页面手动重新运行工作流
+   - 或者推送一个新的提交
 
 ### 样式问题
 

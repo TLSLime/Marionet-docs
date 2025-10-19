@@ -25,6 +25,7 @@ Users must comply with all applicable licenses when building, using, or
 distributing this software.
 
 CRITICAL DEPENDENCY NOTICE:
+===
 
 The rendering component of this project is designed to work with the GDCubism 
 plugin, which in turn links with the Live2D Cubism SDK for Native. Without the 
@@ -36,6 +37,7 @@ framework itself retains its Apache 2.0 license regardless of whether Live2D
 components are used.
 
 REPOSITORY CONTENTS:
+---
 
 This repository includes:
 - Complete Godot project files
@@ -58,16 +60,16 @@ binaries separately.
 COMPONENT LICENSE SUMMARY
 ===
 
-Component                          License           Scope of Application
-------------------------------------------------------------
-Marionet Core Framework            Apache 2.0        All original code
-GDCubism Plugin (Source)           MIT               Plugin source code
-GDCubism Plugin (Compiled Binary)  MIT + Live2D      After compilation
-Live2D Cubism SDK                  Live2D Proprietary When distributed
-Godot Engine                       MIT               Runtime environment
+| Component                        | License          | Scope of Application |
+|---|---|---|
+|Marionet Core Framework           | Apache 2.0       | All original code |
+|GDCubism Plugin (Source)          | MIT              | Plugin source code |
+|GDCubism Plugin (Compiled Binary) | MIT + Live2D     | After compilation |
+|Live2D Cubism SDK                 | Live2D Proprietary| When distributed |
+|Godot Engine                      | MIT              | Runtime environment |
 
 IMPORTANT CLARIFICATION:
-
+---
 The Marionet framework (core, services, features) is licensed under Apache 2.0 
 and remains so regardless of whether Live2D components are used. The Live2D 
 license only affects distribution when the compiled application includes 
@@ -78,8 +80,11 @@ Users have the option to:
 2. Use the framework without Live2D components (Apache 2.0 only)
 3. Replace the rendering component with alternative solutions (Apache 2.0 only)
 
-1. MARIONET CORE FRAMEWORK
+---
+
+1.MARIONET CORE FRAMEWORK
 ===
+
 
 License: Apache License 2.0
 Copyright: 2024 TLSLime (https://github.com/TLSLime)
@@ -279,7 +284,9 @@ with GDCubism and is subject to additional license terms when compiled.
 
    END OF TERMS AND CONDITIONS
 
-2. GDCUBISM PLUGIN
+---
+
+2.GDCUBISM PLUGIN
 ===
 
 License: MIT License
@@ -323,7 +330,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-3. LIVE2D CUBISM SDK FOR NATIVE
+---
+
+3.LIVE2D CUBISM SDK FOR NATIVE
 ===
 
 License: Live2D Proprietary Software License
@@ -423,7 +432,9 @@ Official Resources:
 - License Information: https://www.live2d.com/en/download/cubism-sdk/#license
 - Contact: license@live2d.com
 
-4. GODOT ENGINE
+---
+
+4.GODOT ENGINE
 ===
 
 License: MIT License
@@ -434,6 +445,8 @@ Godot Engine is used as the runtime environment and is not included in this
 repository. Users must install Godot separately.
 
 License details: https://godotengine.org/license
+
+---
 
 DISTRIBUTION GUIDELINES
 ===

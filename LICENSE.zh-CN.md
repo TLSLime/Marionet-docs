@@ -39,13 +39,15 @@ MARIONET 项目许可证
 用户在构建、使用或分发本软件时，必须遵守所有适用的许可证。
 
 关键依赖声明：
-
+---
 本项目的渲染组件设计为与 GDCubism 插件配合工作，该插件会链接到 Live2D 
 Cubism SDK for Native。如果没有 GDCubism 插件，渲染功能将无法使用。
 
-重要提示：框架的其他组件（核心逻辑、服务层、功能模块）不依赖于 Live2D SDK，
+重要提示：
+---
+**框架的其他组件（核心逻辑、服务层、功能模块）不依赖于 Live2D SDK，
 可以独立运行。无论是否使用 Live2D 组件，Marionet 框架本身都保持其 
-Apache 2.0 许可证。
+Apache 2.0 许可证。**
 
 代码仓库内容：
 
@@ -59,24 +61,26 @@ Apache 2.0 许可证。
 - 已编译的 GDCubism 插件二进制文件（.dll、.so、.dylib）
 - Live2D Cubism SDK 二进制文件或源代码
 
-注意：如果本仓库包含 Live2D 模型文件，这些模型均为 Live2D Inc. 官方
+**注意：如果本仓库包含 Live2D 模型文件，这些模型均为 Live2D Inc. 官方
 发布的免费开源模型，受其各自的开源许可证约束。用户自定义的 Live2D 
-模型文件不包含在仓库中，需要用户自行准备。
+模型文件不包含在仓库中，需要用户自行准备。**
 
-用户必须自行编译 GDCubism 插件，或单独获取预编译的二进制文件。
+
+**用户必须自行编译 GDCubism 插件，或单独获取预编译的二进制文件。**
 
 组件许可证摘要
 ===
 
-组件                              许可证            适用范围
-------------------------------------------------------------
-Marionet 核心框架                  Apache 2.0        所有原创代码
-GDCubism 插件（源代码）            MIT               插件源代码
-GDCubism 插件（编译后二进制）      MIT + Live2D      编译后
-Live2D Cubism SDK                 Live2D 专有       分发时
-Godot 引擎                        MIT               运行时环境
+|             组件             |    许可证     |   适用范围   |
+| ---------------------------- | ------------ | ----------- |
+| Marionet 核心框架            | Apache 2.0   | 所有原创代码 |
+| GDCubism 插件（源代码）       | MIT          | 插件源代码   |
+| GDCubism 插件（编译后二进制） | MIT + Live2D | 编译后       |
+| Live2D Cubism SDK            | Live2D 专有   | 分发时       |
+| Godot 引擎                   | MIT          | 运行时环境   |
 
 重要说明：
+---
 
 Marionet 框架（核心、服务、功能）采用 Apache 2.0 许可证，无论是否使用 
 Live2D 组件，该许可证都保持不变。只有在分发包含与 Live2D SDK 链接的 
@@ -87,7 +91,9 @@ GDCubism 二进制文件的已编译应用程序时，才会受到 Live2D 许可
 2. 不使用 Live2D 组件使用框架（仅 Apache 2.0）
 3. 用替代方案替换渲染组件（仅 Apache 2.0）
 
-1. MARIONET 核心框架
+---
+
+1.MARIONET 核心框架
 ===
 
 许可证：Apache License 2.0
@@ -108,8 +114,8 @@ GDCubism 二进制文件的已编译应用程序时，才会受到 Live2D 许可
 - /tests/                 单元测试
 - /docs/                  文档
 
-重要提示：渲染组件（/src/Renderer/ 或等效目录）与 GDCubism 集成，编译后
-将受到额外许可条款的约束。
+**重要提示：渲染组件（/src/Renderer/ 或等效目录）与 GDCubism 集成，编译后
+将受到额外许可条款的约束。**
 
                             Apache 许可证
                         版本 2.0，2004 年 1 月
@@ -228,7 +234,9 @@ GDCubism 二进制文件的已编译应用程序时，才会受到 Live2D 许可
 
    条款和条件结束
 
-2. GDCUBISM 插件
+---
+
+2.GDCUBISM 插件
 ===
 
 许可证：MIT License
@@ -265,7 +273,9 @@ MIT 许可证文本：
 任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权行为还是其他方面，
 由软件或软件的使用或其他交易引起、产生或与之相关。
 
-3. LIVE2D CUBISM SDK FOR NATIVE
+---
+
+3.LIVE2D CUBISM SDK FOR NATIVE
 ===
 
 许可证：Live2D 专有软件许可证
@@ -280,10 +290,8 @@ Apache 2.0 许可证。
 
 这意味着：
 - Marionet 核心源代码（Apache 2.0）可以独立自由使用、修改和分发
-- 当将 GDCubism 插件二进制文件（使用 Live2D SDK 编译）集成到项目中时，
-  分发完整应用程序需要遵守 Live2D 的许可条款
-- 用户可以选择在不使用 Live2D 组件的情况下使用 Marionet 框架，
-  仅受 Apache 2.0 条款约束
+- 当将 GDCubism 插件二进制文件（使用 Live2D SDK 编译）集成到项目中时，分发完整应用程序需要遵守 Live2D 的许可条款
+- 用户可以选择在不使用 Live2D 组件的情况下使用 Marionet 框架，仅受 Apache 2.0 条款约束
 
 适用性：
 
@@ -341,8 +349,7 @@ Live2D 专有库链接的衍生作品。
 - 根据使用规模获得适当的许可
 - 提供适当的归属和许可声明
 
-重要提示：本仓库不包含 Live2D SDK。用户必须从 Live2D Inc. 单独下载
-并接受其许可协议。
+重要提示：本仓库不包含 Live2D SDK。用户必须从 Live2D Inc. 单独下载并接受其许可协议。
 
 关于本仓库中的 LIVE2D 模型文件：
 
@@ -362,7 +369,9 @@ Live2D 专有库链接的衍生作品。
 - 许可证信息：https://www.live2d.com/en/download/cubism-sdk/#license
 - 联系方式：license@live2d.com
 
-4. GODOT 引擎
+---
+
+4.GODOT 引擎
 ===
 
 许可证：MIT License
@@ -372,6 +381,8 @@ Live2D 专有库链接的衍生作品。
 Godot Engine 用作运行时环境，不包含在本仓库中。用户必须单独安装 Godot。
 
 许可证详情：https://godotengine.org/license
+
+---
 
 分发指南
 ===
@@ -396,8 +407,7 @@ Godot Engine 用作运行时环境，不包含在本仓库中。用户必须单�
 
 分发已编译的二进制文件：
 
-警告：包含与 Live2D SDK 链接的 GDCubism 插件的已编译二进制文件受 
-Live2D 专有许可证的约束。
+警告：包含与 Live2D SDK 链接的 GDCubism 插件的已编译二进制文件受 Live2D 专有许可证的约束。
 
 在分发已编译的二进制文件之前，您必须：
 
@@ -417,8 +427,7 @@ Live2D 专有许可证的约束。
    
 4. 向最终用户清楚地说明许可状态
 
-重要提示：如果您在未获得适当的 Live2D 许可的情况下分发二进制文件，
-您可能违反 Live2D 的专有软件许可证。
+重要提示：如果您在未获得适当的 Live2D 许可的情况下分发二进制文件，您可能违反 Live2D 的专有软件许可证。
 
 替代方案：不使用 LIVE2D 的分发：
 
